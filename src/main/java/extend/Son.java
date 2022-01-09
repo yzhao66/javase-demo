@@ -11,4 +11,8 @@ public class Son extends Parent{
     public void testMethod(){
         System.out.println("son+speak");
     }
+    public void testMethod2(){
+        System.out.println("son+speak");
+    }
+
 }
