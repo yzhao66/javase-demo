@@ -8,7 +8,7 @@ public class Son extends Parent{
     public void cc1(){
         System.out.println("son+speak");
     }
-    public void aa(){
+    public void testMethod(){
         System.out.println("son+speak");
     }
 }
