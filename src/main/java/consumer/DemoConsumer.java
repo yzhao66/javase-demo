@@ -9,13 +9,13 @@ import java.util.function.Consumer;
  */
 public class DemoConsumer {
 
-    public static void main(String[] args) {
+    public  void main(String[] args) {
         consumerToString(s -> System.out.println(s));
     }
 
 
 
-    private static void consumerToString(Consumer<String> T){
+    private  void consumerToString(Consumer<String> T){
         T.accept("yzh 6666666");
     }
 }

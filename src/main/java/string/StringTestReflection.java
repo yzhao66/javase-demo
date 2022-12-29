@@ -11,7 +11,7 @@ import java.lang.reflect.Field;
 public class StringTestReflection {
 
 
-    public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
+    public  void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
         String s = "Hello World";
         Class<?>  sout=s.getClass();
 

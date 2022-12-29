@@ -41,7 +41,7 @@ public class RandomAcessTime {
         return endTime-starTime;
 
     }
-    public static void main(String[] args) {
+    public  void main(String[] args) {
         List<String>  arrayList=new ArrayList<String>();
         for (int i = 0; i < 3000; i++) {
             arrayList.add(i+"");
