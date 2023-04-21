@@ -9,16 +9,20 @@ public class MaximumTest {
 
     public static <T extends Comparable<T>> T maximum(T x, T y, T z)
     {
-        T max = x; // 假设x是初始最大值
-        if ( y.compareTo( max ) > 0 ){
-            max = y; //y 更大
+        // 假设x是初始最大值
+        T max = x;
+        if (y.compareTo(max) > 0) {
+            //y 更大
+            max = y;
         }
-        if ( z.compareTo( max ) > 0 ){
-            max = z; // 现在 z 更大
+        if (z.compareTo(max) > 0) {
+            // 现在 z 更大
+            max = z;
         }
-        return max; // 返回最大对象
+        // 返回最大对象
+        return max;
     }
-    public static void main( String args[] )
+    public static void main(String[] args)
     {
         System.out.printf( "%d, %d 和 %d 中最大的数为 %d\n\n",
                 3, 4, 5, maximum( 3, 4, 5 ) );
